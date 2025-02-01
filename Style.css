@@ -1,0 +1,191 @@
+*, html ,body{
+  padding: 0;
+  margin: 0;
+  font-family: Verdana;
+}
+
+.container{
+  background-color: #ec9801eb;
+  width: 100%;
+  height: 55px;
+  
+  
+  
+  
+}
+
+.pembungkus{
+  display: flex;
+  background-color: #000000eb;
+  width: 100%;
+  height: 55px;
+  justify-content: space-between;
+  box-shadow: 0 1px 2px 0;
+  border: solid;
+  z-index: 999;
+  opacity: 950%;
+  position: fixed;
+  
+  
+}
+
+.brand{
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+  flex: row;
+  padding: 20px;
+  font-style: capitalize;
+  align-items: center;
+  padding-right: 5%;
+}
+
+.firstname{
+  color: #ec9801eb;
+  font-weight: 20px;
+  
+  
+}
+
+.lastname{
+  color:white;
+  font-weight: 10px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5%;
+  
+}
+
+.navbar a{
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  
+}
+
+.navbar a:hover{
+  color:#ec9801eb;
+  transition:0.4s;
+}
+
+.hero{
+  background-image: url('/img/BG.jpg');
+  max-width: 100%;
+  align-items: center;
+  box-sizing: border-box auto;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  min-size: 100%;
+  
+  
+ 
+}
+
+.content div{
+  align-self: end;
+}
+
+.judul{
+  color: #ec9801eb;
+  padding: 10px;
+  font-size: 25px;
+  flex-direction: start;
+}
+
+.content img{
+  width: 150px;
+  aspect-ratio: 1/2;
+  border-radius: 10px;
+  border: solid #dd6c19eb 2px ;
+  
+}
+
+.content div{
+  justify-content: center;
+  align-self: center;
+  padding: 0 20px;
+  
+
+  
+}
+
+.content h2{
+  color: white;
+  font-size: 25px;
+  font-family: Sans-Serif;
+  font-weight: 800;
+  
+  
+  
+}
+.content h4{
+  color:#ec9801eb;
+  font-size: 15px;
+  font-weight: 500;
+  
+  
+}
+
+.content p{
+  color: white;
+  padding: 30px 0;
+  font-size: 20px;
+  
+  
+}
+
+
+.project{
+  padding: 0;
+  margin: 0px;
+  background-image: url("/img/BG.jpg");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+  
+  
+  border: solid 5px;
+  
+}
+.project .isi{
+  margin: 10px 10px;
+  flex-wrap: wrap;
+ display: flex;
+justify-content: center;
+justify-content: space-between;
+}
+ 
+
+.satu{
+  order: 1;
+  border-radius: 10px;
+border: solid #ec8437eb;
+}
+.dua{
+  order: 3;
+  border-radius: 10px;
+border: solid #ec8437eb;
+  
+}
+.tiga{
+  order: 2;
+  border-radius: 10px;
+border: solid #ec8437eb;
+}
+p{
+  order:4;
+}
+.isi p{
+  color:white;
+  background-color: #924811eb;
+  text-align: center;
